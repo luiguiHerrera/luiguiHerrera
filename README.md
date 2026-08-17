@@ -15,15 +15,25 @@ Dynamic asset allocation · Market regimes · Portfolio risk · Econometrics · 
 
 ---
 
-## Featured project
+## Selected Research & Tools
 
-**Robust TD3 Portfolio Allocation under Realistic Trading Frictions**
+### [DRL Portfolio Evaluation](https://github.com/luiguiHerrera/drl-portfolio-evaluation)
 
-TD3-based portfolio allocation research across SPY, TLT, GLD, BTC-USD and cash assumptions.
+I test whether TD3 actually adds value in portfolio allocation once I control for trading costs, benchmark alignment, multiple seeds and statistical robustness.
 
-The project includes transaction costs, benchmarks, concentration limits, turnover analysis, bootstrap validation and White Reality Check.
+The result is mixed: TD3 is competitive in some settings, but it does not consistently beat the full benchmark set.
 
-The project evaluates TD3 under realistic portfolio constraints. Results are competitive in selected settings, but the strongest contribution is the robustness of the evaluation framework rather than a claim of persistent alpha.
+### [Portfolio Fragility Lab](https://github.com/luiguiHerrera/portfolio-fragility-lab)
+
+A local-first Python tool I built to analyze portfolio fragility beyond standard return and volatility metrics.
+
+It focuses on concentration, dependency and structural risk.
+
+### [Investment Research Lab](https://github.com/luiguiHerrera/Luiguiherrera-web)
+
+My public investment research platform.
+
+I use it to publish market analysis, portfolio diagnostics and quantitative research tools.
 
 ---
 
